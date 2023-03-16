@@ -1,6 +1,6 @@
 Feature: TEK Insurance API Test
   
-  @test02
+  @test
   Scenario: Add Primary Account
     Given url "https://tek-insurance-api.azurewebsites.net"
     * def tokenValue = call read("GenerateToken.feature")
